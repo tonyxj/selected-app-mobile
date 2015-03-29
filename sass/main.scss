@@ -19,9 +19,15 @@ html, body {
 	box-sizing: border-box;
 }
 
-.iphone {
-	width: 800px;
+// .iphone {
+// 	width: 800px;
+// }
+body {
+	position: fixed;
+	left: -$offset-left;
+	top: -$offset-top;
 }
+
 
 .bg {
 	position: absolute;
@@ -63,15 +69,15 @@ html, body {
 
 .categories {
 	@extend .bg;
-	padding-top: 50px;
+	padding-top: 70px;
 	background: none;
 	letter-spacing: 0.5px;
 	background-color: $bg-color;
 	text-align: center;
 	.profile-icon {
 		position: absolute;
-		top: 18px;
-		left: 290px;
+		top: 28px;
+		left: 310px;
 		width: 35px;
 		height: 35px;
 		background-image: url('../img/profile-icon.png');
@@ -100,11 +106,11 @@ html, body {
 	a.cat {
 		position:relative;
 		color: white;
-		font-size: 0.75rem;
+		font-size: 0.9rem;
 		display: inline-block;
 		vertical-align: middle;
 		width: 24%;
-		padding: 31px 0;
+		padding: 34px 0;
 		border: 2px solid white;
 		margin: 10px 6px 0 0;
 		border-radius: 50%;
@@ -213,7 +219,7 @@ html, body {
 
 	.selected-bar {
 		position: fixed;
-		top: $offset-top;
+		top: 0;
 		// left: $width;
 		z-index: 100;
 
@@ -516,8 +522,8 @@ html, body {
 
 	.book-now {
 		position: fixed;
-		left: $offset-left;
-		top: $height + $offset-top - 54;
+		left: 0;
+		bottom: 0;
 		width: $width;
 		height: 54px;
 		text-decoration: none;
@@ -710,7 +716,7 @@ html, body {
 	font-size: 0.9rem;
 	.selected-bar1 {
 		position: fixed;
-		top: $offset-top;
+		top: 0;
 		// left: $width;
 		z-index: 100;
 		h2 {
@@ -798,7 +804,7 @@ html, body {
 			text-align: center;
 			color: $theme-light-gray;
 			width: 37%;
-			padding: 40px 0;
+			padding: 47px 0;
 			border: 2px solid $theme-light-gray;
 			border-radius: 50%;
 		}
@@ -894,8 +900,8 @@ html, body {
 .filtered {
 	z-index: 1000;
 	position: fixed;
-	top: $offset-top;
-	left: $offset-left + 70;
+	top: 0;
+	right: 0;
 	width: $width - 70;
 	background-color: $theme-dark-purple;
 	height: $height;

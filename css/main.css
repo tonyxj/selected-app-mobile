@@ -483,18 +483,20 @@ html, body {
   box-sizing: border-box;
 }
 
-/* line 22, ../sass/main.scss */
-.iphone {
-  width: 800px;
+/* line 25, ../sass/main.scss */
+body {
+  position: fixed;
+  left: -229px;
+  top: -100px;
 }
 
-/* line 26, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 .bg, .splash, .categories, .list, .tickets, .bookmarks, .past, .details, .payment, .ticket-details, .confirmation, .profile {
   position: absolute;
   top: 100px;
   left: 229px;
-  width: 340px;
-  height: 558px;
+  width: 375px;
+  height: 667px;
   background-image: url("../img/nyc.png");
   background-position: center;
   background-size: cover;
@@ -505,11 +507,11 @@ html, body {
 								Splash
 
 ******************************************************************************/
-/* line 43, ../sass/main.scss */
+/* line 49, ../sass/main.scss */
 .splash {
   background: linear-gradient(to bottom, rgba(25, 8, 59, 0.42) 0%, #19093b 100%);
 }
-/* line 47, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 .splash h1 {
   margin-top: 230px;
   text-align: center;
@@ -524,19 +526,19 @@ html, body {
 								Categories
 
 ******************************************************************************/
-/* line 64, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 .categories {
-  padding-top: 50px;
+  padding-top: 70px;
   background: none;
   letter-spacing: 0.5px;
   background-color: #19093b;
   text-align: center;
 }
-/* line 71, ../sass/main.scss */
+/* line 77, ../sass/main.scss */
 .categories .profile-icon {
   position: absolute;
-  top: 18px;
-  left: 290px;
+  top: 28px;
+  left: 310px;
   width: 35px;
   height: 35px;
   background-image: url("../img/profile-icon.png");
@@ -544,11 +546,11 @@ html, body {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 81, ../sass/main.scss */
+/* line 87, ../sass/main.scss */
 .categories .profile-icon:hover {
   cursor: pointer;
 }
-/* line 85, ../sass/main.scss */
+/* line 91, ../sass/main.scss */
 .categories h1 {
   font-size: 1.3rem;
   font-weight: 700;
@@ -556,45 +558,45 @@ html, body {
   text-transform: uppercase;
   letter-spacing: 5px;
 }
-/* line 92, ../sass/main.scss */
+/* line 98, ../sass/main.scss */
 .categories h2 {
   font-size: 0.9rem;
   color: white;
   font-weight: 200;
 }
-/* line 97, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 .categories a {
   text-decoration: none;
 }
-/* line 100, ../sass/main.scss */
+/* line 106, ../sass/main.scss */
 .categories a.cat {
   position: relative;
   color: white;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   display: inline-block;
   vertical-align: middle;
   width: 24%;
-  padding: 31px 0;
+  padding: 34px 0;
   border: 2px solid white;
   margin: 10px 6px 0 0;
   border-radius: 50%;
   font-weight: normal;
 }
-/* line 112, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 .categories a.cat:nth-of-type(3n) {
   margin-right: 0;
 }
-/* line 116, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 .categories a.selected {
   background-color: white;
   font-weight: 700;
   color: #19093b;
 }
-/* line 121, ../sass/main.scss */
+/* line 127, ../sass/main.scss */
 .categories a.selected:before {
   background-image: none;
 }
-/* line 125, ../sass/main.scss */
+/* line 131, ../sass/main.scss */
 .categories .go-button {
   display: inline-block;
   height: 3rem;
@@ -610,7 +612,7 @@ html, body {
   letter-spacing: 2px;
 }
 
-/* line 141, ../sass/main.scss */
+/* line 147, ../sass/main.scss */
 .cat1:before, .cat2:before, .cat3:before, .cat4:before, .cat5:before, .cat6:before, .cat7:before, .cat8:before, .cat9:before, .cat10:before, .cat11:before, .cat12:before {
   content: "";
   display: block;
@@ -626,57 +628,57 @@ html, body {
   opacity: 0.2;
 }
 
-/* line 156, ../sass/main.scss */
+/* line 162, ../sass/main.scss */
 .cat2:before {
   background-image: url("../img/thrill.jpg");
 }
 
-/* line 160, ../sass/main.scss */
+/* line 166, ../sass/main.scss */
 .cat3:before {
   background-image: url("../img/soulful.png");
 }
 
-/* line 164, ../sass/main.scss */
+/* line 170, ../sass/main.scss */
 .cat4:before {
   background-image: url("../img/active.png");
 }
 
-/* line 168, ../sass/main.scss */
+/* line 174, ../sass/main.scss */
 .cat5:before {
   background-image: url("../img/casual.png");
 }
 
-/* line 172, ../sass/main.scss */
+/* line 178, ../sass/main.scss */
 .cat6:before {
   background-image: url("../img/serious.jpg");
 }
 
-/* line 176, ../sass/main.scss */
+/* line 182, ../sass/main.scss */
 .cat7:before {
   background-image: url("../img/outdoor.jpg");
 }
 
-/* line 180, ../sass/main.scss */
+/* line 186, ../sass/main.scss */
 .cat8:before {
   background-image: url("../img/study.jpg");
 }
 
-/* line 184, ../sass/main.scss */
+/* line 190, ../sass/main.scss */
 .cat9:before {
   background-image: url("../img/artsy.jpg");
 }
 
-/* line 188, ../sass/main.scss */
+/* line 194, ../sass/main.scss */
 .cat10:before {
   background-image: url("../img/music.png");
 }
 
-/* line 192, ../sass/main.scss */
+/* line 198, ../sass/main.scss */
 .cat11:before {
   background-image: url("../img/food.png");
 }
 
-/* line 196, ../sass/main.scss */
+/* line 202, ../sass/main.scss */
 .cat12:before {
   background-image: url("../img/drink.jpg");
 }
@@ -686,20 +688,20 @@ html, body {
 								List
 
 ******************************************************************************/
-/* line 207, ../sass/main.scss */
+/* line 213, ../sass/main.scss */
 .list, .tickets, .bookmarks, .past {
   background: #19093b;
   overflow: scroll;
   margin-top: 54px;
-  height: 504px;
-}
-/* line 214, ../sass/main.scss */
-.list .selected-bar, .tickets .selected-bar, .bookmarks .selected-bar, .past .selected-bar {
-  position: fixed;
-  top: 100px;
-  z-index: 100;
+  height: 613px;
 }
 /* line 220, ../sass/main.scss */
+.list .selected-bar, .tickets .selected-bar, .bookmarks .selected-bar, .past .selected-bar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+/* line 226, ../sass/main.scss */
 .list .selected-bar h2, .tickets .selected-bar h2, .bookmarks .selected-bar h2, .past .selected-bar h2 {
   text-align: center;
   text-transform: uppercase;
@@ -710,7 +712,7 @@ html, body {
   padding-top: 5px;
   margin-left: 110px;
 }
-/* line 230, ../sass/main.scss */
+/* line 236, ../sass/main.scss */
 .list .selected-bar .back-to-cat, .tickets .selected-bar .back-to-cat, .bookmarks .selected-bar .back-to-cat, .past .selected-bar .back-to-cat, .list .selected-bar .filter, .tickets .selected-bar .filter, .bookmarks .selected-bar .filter, .past .selected-bar .filter {
   display: inline-block;
   position: absolute;
@@ -722,12 +724,12 @@ html, body {
   background-size: contain;
   background-position: center;
 }
-/* line 241, ../sass/main.scss */
+/* line 247, ../sass/main.scss */
 .list .selected-bar .filter, .tickets .selected-bar .filter, .bookmarks .selected-bar .filter, .past .selected-bar .filter {
-  left: 304px;
+  left: 339px;
   background-image: url("../img/filter.png");
 }
-/* line 247, ../sass/main.scss */
+/* line 253, ../sass/main.scss */
 .list .event, .tickets .event, .bookmarks .event, .past .event {
   height: 238px;
   background-image: url("../img/stanley-park.png");
@@ -736,11 +738,11 @@ html, body {
   color: white;
   position: relative;
 }
-/* line 254, ../sass/main.scss */
+/* line 260, ../sass/main.scss */
 .list .event:hover, .tickets .event:hover, .bookmarks .event:hover, .past .event:hover {
   cursor: pointer;
 }
-/* line 258, ../sass/main.scss */
+/* line 264, ../sass/main.scss */
 .list .event:before, .tickets .event:before, .bookmarks .event:before, .past .event:before {
   content: "";
   position: absolute;
@@ -750,7 +752,7 @@ html, body {
   left: 0;
   background: linear-gradient(to bottom, rgba(10, 10, 10, 0.52) 0%, rgba(10, 10, 10, 0) 100%);
 }
-/* line 269, ../sass/main.scss */
+/* line 275, ../sass/main.scss */
 .list .event .bookmark, .tickets .event .bookmark, .bookmarks .event .bookmark, .past .event .bookmark {
   position: absolute;
   top: 0.8rem;
@@ -762,11 +764,11 @@ html, body {
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* line 280, ../sass/main.scss */
+/* line 286, ../sass/main.scss */
 .list .event .bookmark:hover, .tickets .event .bookmark:hover, .bookmarks .event .bookmark:hover, .past .event .bookmark:hover {
   cursor: pointer;
 }
-/* line 285, ../sass/main.scss */
+/* line 291, ../sass/main.scss */
 .list .event .snippet, .tickets .event .snippet, .bookmarks .event .snippet, .past .event .snippet {
   position: absolute;
   left: 0;
@@ -776,7 +778,7 @@ html, body {
   padding-top: 35px;
   background: linear-gradient(to bottom, rgba(10, 10, 10, 0) 0%, rgba(10, 10, 10, 0.78) 70%);
 }
-/* line 295, ../sass/main.scss */
+/* line 301, ../sass/main.scss */
 .list .event h3, .tickets .event h3, .bookmarks .event h3, .past .event h3 {
   margin: 0;
   padding: 0.6rem 0.7rem 0.5rem 0.7rem;
@@ -785,19 +787,19 @@ html, body {
   font-size: 1rem;
   text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.6);
 }
-/* line 303, ../sass/main.scss */
+/* line 309, ../sass/main.scss */
 .list .event p, .tickets .event p, .bookmarks .event p, .past .event p {
   margin: 0;
   padding: 0 0.7rem;
   font-size: 0.7rem;
   font-weight: 100;
 }
-/* line 308, ../sass/main.scss */
+/* line 314, ../sass/main.scss */
 .list .event p span, .tickets .event p span, .bookmarks .event p span, .past .event p span {
   display: inline-block;
   float: right;
 }
-/* line 314, ../sass/main.scss */
+/* line 320, ../sass/main.scss */
 .list .event .tag, .tickets .event .tag, .bookmarks .event .tag, .past .event .tag {
   margin-top: 2rem;
   font-size: 7px;
@@ -809,39 +811,39 @@ html, body {
   text-transform: uppercase;
   border-radius: 10px;
 }
-/* line 326, ../sass/main.scss */
+/* line 332, ../sass/main.scss */
 .list .event .tag:first-of-type, .tickets .event .tag:first-of-type, .bookmarks .event .tag:first-of-type, .past .event .tag:first-of-type {
   margin-left: 0.7rem;
 }
-/* line 332, ../sass/main.scss */
+/* line 338, ../sass/main.scss */
 .list .event1, .tickets .event1, .bookmarks .event1, .past .event1 {
   background-image: url("../img/stanley-park.png");
 }
-/* line 335, ../sass/main.scss */
+/* line 341, ../sass/main.scss */
 .list .event2, .tickets .event2, .bookmarks .event2, .past .event2 {
   background-image: url("../img/nature-yoga.jpg");
 }
-/* line 338, ../sass/main.scss */
+/* line 344, ../sass/main.scss */
 .list .event3, .tickets .event3, .bookmarks .event3, .past .event3 {
   background-image: url("../img/workout.jpg");
 }
-/* line 341, ../sass/main.scss */
+/* line 347, ../sass/main.scss */
 .list .event4, .tickets .event4, .bookmarks .event4, .past .event4 {
   background-image: url("../img/street-art.jpg");
 }
-/* line 344, ../sass/main.scss */
+/* line 350, ../sass/main.scss */
 .list .event5, .tickets .event5, .bookmarks .event5, .past .event5 {
   background-image: url("../img/yoga-outdoor.jpg");
 }
-/* line 347, ../sass/main.scss */
+/* line 353, ../sass/main.scss */
 .list .event6, .tickets .event6, .bookmarks .event6, .past .event6 {
   background-image: url("../img/sushi.jpg");
 }
-/* line 350, ../sass/main.scss */
+/* line 356, ../sass/main.scss */
 .list .event7, .tickets .event7, .bookmarks .event7, .past .event7 {
   background-image: url("../img/passion.jpg");
 }
-/* line 353, ../sass/main.scss */
+/* line 359, ../sass/main.scss */
 .list .event8, .tickets .event8, .bookmarks .event8, .past .event8 {
   background-image: url("../img/spirits.jpg");
 }
@@ -851,13 +853,13 @@ html, body {
 								Base
 
 ******************************************************************************/
-/* line 364, ../sass/main.scss */
+/* line 370, ../sass/main.scss */
 .details, .payment, .ticket-details {
   background-image: none;
   background-color: white;
   overflow: scroll;
 }
-/* line 369, ../sass/main.scss */
+/* line 375, ../sass/main.scss */
 .details .event-img, .payment .event-img, .ticket-details .event-img {
   height: 140px;
   width: 100%;
@@ -866,7 +868,7 @@ html, body {
   background-position: center;
   position: relative;
 }
-/* line 376, ../sass/main.scss */
+/* line 382, ../sass/main.scss */
 .details .event-img:before, .payment .event-img:before, .ticket-details .event-img:before {
   content: "";
   position: absolute;
@@ -877,7 +879,7 @@ html, body {
   background-color: white;
   background: linear-gradient(to left, rgba(10, 10, 10, 0) 0%, rgba(10, 10, 10, 0.58) 60%);
 }
-/* line 386, ../sass/main.scss */
+/* line 392, ../sass/main.scss */
 .details .event-img span, .payment .event-img span, .ticket-details .event-img span {
   position: absolute;
   top: 0;
@@ -889,11 +891,11 @@ html, body {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 396, ../sass/main.scss */
+/* line 402, ../sass/main.scss */
 .details .event-img span:hover, .payment .event-img span:hover, .ticket-details .event-img span:hover {
   cursor: pointer;
 }
-/* line 402, ../sass/main.scss */
+/* line 408, ../sass/main.scss */
 .details h3, .payment h3, .ticket-details h3, .details h4, .payment h4, .ticket-details h4 {
   margin-top: 1.5rem;
   text-align: center;
@@ -901,7 +903,7 @@ html, body {
   margin-bottom: 0;
   font-size: 1.3rem;
 }
-/* line 410, ../sass/main.scss */
+/* line 416, ../sass/main.scss */
 .details h4, .payment h4, .ticket-details h4 {
   margin-top: 0.3rem;
   text-transform: uppercase;
@@ -910,7 +912,7 @@ html, body {
   color: gray;
   margin-bottom: 1.5rem;
 }
-/* line 419, ../sass/main.scss */
+/* line 425, ../sass/main.scss */
 .details .card, .payment .card, .ticket-details .card {
   font-weight: 200;
   font-size: 0.8rem;
@@ -920,7 +922,7 @@ html, body {
   background-color: #ebe8ee;
   line-height: 1.05rem;
 }
-/* line 427, ../sass/main.scss */
+/* line 433, ../sass/main.scss */
 .details .card span, .payment .card span, .ticket-details .card span {
   text-transform: uppercase;
   font-weight: 700;
@@ -929,22 +931,22 @@ html, body {
   margin-bottom: -0.7rem;
   font-size: 0.8rem;
 }
-/* line 437, ../sass/main.scss */
+/* line 443, ../sass/main.scss */
 .details .specialty, .payment .specialty, .ticket-details .specialty, .details .addtional-info, .payment .addtional-info, .ticket-details .addtional-info {
   padding-bottom: 1.5rem;
 }
-/* line 441, ../sass/main.scss */
+/* line 447, ../sass/main.scss */
 .details .key-facts, .payment .key-facts, .ticket-details .key-facts {
   text-align: center;
   padding: 0.8rem 0 1.4rem;
   color: #333;
   font-weight: 400;
 }
-/* line 446, ../sass/main.scss */
+/* line 452, ../sass/main.scss */
 .details .key-facts p, .payment .key-facts p, .ticket-details .key-facts p {
   margin: 7px 0;
 }
-/* line 449, ../sass/main.scss */
+/* line 455, ../sass/main.scss */
 .details .key-facts a, .payment .key-facts a, .ticket-details .key-facts a {
   display: inline-block;
   margin-top: 0.8rem;
@@ -957,16 +959,16 @@ html, body {
   border-radius: 3px;
   color: #ec298f;
 }
-/* line 463, ../sass/main.scss */
+/* line 469, ../sass/main.scss */
 .details .map, .payment .map, .ticket-details .map {
   padding: 0;
 }
-/* line 465, ../sass/main.scss */
+/* line 471, ../sass/main.scss */
 .details .map p, .payment .map p, .ticket-details .map p {
   padding: 1.5rem;
   margin: 0;
 }
-/* line 469, ../sass/main.scss */
+/* line 475, ../sass/main.scss */
 .details .map .helper, .payment .map .helper, .ticket-details .map .helper {
   text-transform: none;
   font-weight: 200;
@@ -976,7 +978,7 @@ html, body {
   letter-spacing: 0;
   margin-top: 3px;
 }
-/* line 478, ../sass/main.scss */
+/* line 484, ../sass/main.scss */
 .details .map .map-view, .payment .map .map-view, .ticket-details .map .map-view {
   width: 100%;
   height: 160px;
@@ -984,41 +986,41 @@ html, body {
   background-size: 130%;
   background-position: center;
 }
-/* line 486, ../sass/main.scss */
+/* line 492, ../sass/main.scss */
 .details .additional-info, .payment .additional-info, .ticket-details .additional-info {
   padding-bottom: 1.5rem;
   margin-bottom: 54px;
 }
-/* line 489, ../sass/main.scss */
+/* line 495, ../sass/main.scss */
 .details .additional-info article, .payment .additional-info article, .ticket-details .additional-info article {
   font-size: 0.65rem;
   width: 48%;
   display: inline-block;
   vertical-align: top;
 }
-/* line 495, ../sass/main.scss */
+/* line 501, ../sass/main.scss */
 .details .additional-info article:first-of-type, .payment .additional-info article:first-of-type, .ticket-details .additional-info article:first-of-type {
   margin-right: 2%;
 }
-/* line 498, ../sass/main.scss */
+/* line 504, ../sass/main.scss */
 .details .additional-info article a, .payment .additional-info article a, .ticket-details .additional-info article a {
   color: #ec298f;
   text-decoration: none;
   font-weight: 400;
 }
-/* line 508, ../sass/main.scss */
+/* line 514, ../sass/main.scss */
 .details .additional-info article span, .payment .additional-info article span, .ticket-details .additional-info article span {
   font-size: 0.7;
   font-weight: 400;
   margin: 0;
   margin-bottom: 0.2rem;
 }
-/* line 517, ../sass/main.scss */
+/* line 523, ../sass/main.scss */
 .details .book-now, .payment .book-now, .ticket-details .book-now {
   position: fixed;
-  left: 229px;
-  top: 604px;
-  width: 340px;
+  left: 0;
+  bottom: 0;
+  width: 375px;
   height: 54px;
   text-decoration: none;
   padding-top: 17px;
@@ -1030,7 +1032,7 @@ html, body {
   font-weight: 400;
   z-index: 1000;
 }
-/* line 532, ../sass/main.scss */
+/* line 538, ../sass/main.scss */
 .details .book-now:hover, .payment .book-now:hover, .ticket-details .book-now:hover {
   cursor: pointer;
 }
@@ -1040,34 +1042,34 @@ html, body {
 								Payment
 
 ******************************************************************************/
-/* line 546, ../sass/main.scss */
+/* line 552, ../sass/main.scss */
 .payment .card, .ticket-details .card {
   padding-bottom: 0.2rem;
 }
-/* line 550, ../sass/main.scss */
+/* line 556, ../sass/main.scss */
 .payment .event-details .payment-heading, .ticket-details .event-details .payment-heading {
   font-size: 0.6rem;
 }
-/* line 554, ../sass/main.scss */
+/* line 560, ../sass/main.scss */
 .payment .event-details section.money, .ticket-details .event-details section.money {
   display: inline-block;
   width: 20%;
 }
-/* line 557, ../sass/main.scss */
+/* line 563, ../sass/main.scss */
 .payment .event-details section.money:last-of-type, .ticket-details .event-details section.money:last-of-type {
   float: right;
   margin-top: -0.2rem;
   margin-right: 0.5rem;
 }
-/* line 561, ../sass/main.scss */
+/* line 567, ../sass/main.scss */
 .payment .event-details section.money:last-of-type .important-info, .ticket-details .event-details section.money:last-of-type .important-info {
   margin-top: 0.8rem;
 }
-/* line 564, ../sass/main.scss */
+/* line 570, ../sass/main.scss */
 .payment .event-details section.money:last-of-type .payment-heading, .ticket-details .event-details section.money:last-of-type .payment-heading {
   text-align: right;
 }
-/* line 570, ../sass/main.scss */
+/* line 576, ../sass/main.scss */
 .payment .event-details .tix, .ticket-details .event-details .tix {
   margin-top: -0.5rem;
   margin-left: 0.4rem;
@@ -1078,38 +1080,38 @@ html, body {
   border: 2px solid #ec298f;
   border-radius: 50%;
 }
-/* line 579, ../sass/main.scss */
+/* line 585, ../sass/main.scss */
 .payment .event-details .tix:hover, .ticket-details .event-details .tix:hover {
   cursor: pointer;
 }
-/* line 584, ../sass/main.scss */
+/* line 590, ../sass/main.scss */
 .payment .event-details .minus-tix, .ticket-details .event-details .minus-tix {
   padding: 3px 7px;
 }
-/* line 588, ../sass/main.scss */
+/* line 594, ../sass/main.scss */
 .payment .event-details .important-info, .ticket-details .event-details .important-info {
   font-size: 1.4rem;
   font-weight: 400;
 }
-/* line 591, ../sass/main.scss */
+/* line 597, ../sass/main.scss */
 .payment .event-details .important-info span, .ticket-details .event-details .important-info span {
   float: right;
 }
-/* line 597, ../sass/main.scss */
+/* line 603, ../sass/main.scss */
 .payment .key-facts, .ticket-details .key-facts {
   margin-bottom: 54px !important;
 }
 
-/* line 602, ../sass/main.scss */
+/* line 608, ../sass/main.scss */
 .add-card {
-  height: 528px;
+  height: 637px;
   position: relative;
 }
-/* line 605, ../sass/main.scss */
+/* line 611, ../sass/main.scss */
 .add-card h3 {
   margin: 0 1.5rem;
 }
-/* line 611, ../sass/main.scss */
+/* line 617, ../sass/main.scss */
 .add-card .empty, .add-card .completed {
   margin-top: 1rem;
   width: 320;
@@ -1119,16 +1121,16 @@ html, body {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 622, ../sass/main.scss */
+/* line 628, ../sass/main.scss */
 .add-card .empty:hover, .add-card .completed:hover {
   cursor: pointer;
 }
-/* line 627, ../sass/main.scss */
+/* line 633, ../sass/main.scss */
 .add-card .completed {
   background-image: url("../img/entered-num.png");
 }
 
-/* line 635, ../sass/main.scss */
+/* line 641, ../sass/main.scss */
 .keypad {
   width: 100%;
   height: 238px;
@@ -1140,7 +1142,7 @@ html, body {
   background-repeat: no-repeat;
   background-position: bottom;
 }
-/* line 645, ../sass/main.scss */
+/* line 651, ../sass/main.scss */
 .keypad:hover {
   cursor: pointer;
 }
@@ -1150,7 +1152,7 @@ html, body {
 								Confirmation
 
 ******************************************************************************/
-/* line 656, ../sass/main.scss */
+/* line 662, ../sass/main.scss */
 .confirmation {
   background-image: url("../img/confirmation-blur.png");
   color: #ebe8ee;
@@ -1159,7 +1161,7 @@ html, body {
   padding: 1.5rem;
   letter-spacing: 0.5px;
 }
-/* line 665, ../sass/main.scss */
+/* line 671, ../sass/main.scss */
 .confirmation .back-button {
   margin-top: 4rem;
   display: block;
@@ -1171,17 +1173,17 @@ html, body {
   background-repeat: no-repeat;
   background-position: left;
 }
-/* line 675, ../sass/main.scss */
+/* line 681, ../sass/main.scss */
 .confirmation .back-button:hover {
   cursor: pointer;
 }
-/* line 679, ../sass/main.scss */
+/* line 685, ../sass/main.scss */
 .confirmation h3 {
   font-size: 2rem;
   font-weight: 400;
   letter-spacing: 1px;
 }
-/* line 685, ../sass/main.scss */
+/* line 691, ../sass/main.scss */
 .confirmation a {
   text-decoration: none;
   font-size: 0.9rem;
@@ -1200,19 +1202,19 @@ html, body {
 								Profile
 
 ******************************************************************************/
-/* line 706, ../sass/main.scss */
+/* line 712, ../sass/main.scss */
 .profile {
   background-image: none;
   background-color: #19093b;
   font-size: 0.9rem;
 }
-/* line 711, ../sass/main.scss */
+/* line 717, ../sass/main.scss */
 .profile .selected-bar1 {
   position: fixed;
-  top: 100px;
+  top: 0;
   z-index: 100;
 }
-/* line 716, ../sass/main.scss */
+/* line 722, ../sass/main.scss */
 .profile .selected-bar1 h2 {
   text-align: center;
   text-transform: uppercase;
@@ -1223,7 +1225,7 @@ html, body {
   padding-top: 5px;
   margin-left: 110px;
 }
-/* line 726, ../sass/main.scss */
+/* line 732, ../sass/main.scss */
 .profile .selected-bar1 .back-to-cat, .profile .selected-bar1 .filter {
   display: inline-block;
   position: absolute;
@@ -1235,24 +1237,24 @@ html, body {
   background-size: contain;
   background-position: center;
 }
-/* line 737, ../sass/main.scss */
+/* line 743, ../sass/main.scss */
 .profile .selected-bar1 .filter {
   display: none;
-  left: 304px;
+  left: 339px;
   background-image: url("../img/filter.png");
 }
-/* line 745, ../sass/main.scss */
+/* line 751, ../sass/main.scss */
 .profile .bio, .profile .links {
   margin-top: 4rem;
   display: inline-block;
   width: 37%;
   vertical-align: top;
 }
-/* line 752, ../sass/main.scss */
+/* line 758, ../sass/main.scss */
 .profile .bio {
   margin-left: 2.5rem;
 }
-/* line 756, ../sass/main.scss */
+/* line 762, ../sass/main.scss */
 .profile .bio-pic {
   width: 100px;
   height: 100px;
@@ -1262,7 +1264,7 @@ html, body {
   background-size: contain;
   margin-bottom: 0.6rem;
 }
-/* line 766, ../sass/main.scss */
+/* line 772, ../sass/main.scss */
 .profile .name, .profile .location {
   text-align: center;
   margin-left: -1.2rem;
@@ -1270,13 +1272,13 @@ html, body {
   font-weight: 200;
   opacity: 0.92;
 }
-/* line 774, ../sass/main.scss */
+/* line 780, ../sass/main.scss */
 .profile .links {
   margin-top: 3.8rem;
   width: 42%;
   text-align: center;
 }
-/* line 778, ../sass/main.scss */
+/* line 784, ../sass/main.scss */
 .profile .links a {
   text-decoration: none;
   text-transform: uppercase;
@@ -1289,19 +1291,19 @@ html, body {
   border-radius: 6px;
   color: #ebe8ee;
 }
-/* line 792, ../sass/main.scss */
+/* line 798, ../sass/main.scss */
 .profile .circle {
   margin-left: 3.6rem;
   margin-top: 1.5rem;
 }
-/* line 795, ../sass/main.scss */
+/* line 801, ../sass/main.scss */
 .profile .circle div {
   display: inline-block;
   margin-right: 0.8rem;
   text-align: center;
   color: #ebe8ee;
   width: 37%;
-  padding: 40px 0;
+  padding: 47px 0;
   border: 2px solid #ebe8ee;
   border-radius: 50%;
 }
@@ -1311,49 +1313,49 @@ html, body {
 								Tickets
 
 ******************************************************************************/
-/* line 819, ../sass/main.scss */
+/* line 825, ../sass/main.scss */
 .tickets .selected-bar h2 {
   margin-left: 100px !important;
 }
-/* line 822, ../sass/main.scss */
+/* line 828, ../sass/main.scss */
 .tickets .event {
   height: 160px !important;
 }
 
-/* line 829, ../sass/main.scss */
+/* line 835, ../sass/main.scss */
 .bookmarks .bookmark {
   background-image: url("../img/bookmark-selected.png") !important;
 }
-/* line 832, ../sass/main.scss */
+/* line 838, ../sass/main.scss */
 .bookmarks .selected-bar h2 {
   margin-left: 95px !important;
 }
 
-/* line 839, ../sass/main.scss */
+/* line 845, ../sass/main.scss */
 .past .selected-bar h2 {
   margin-left: 90px !important;
 }
 
-/* line 846, ../sass/main.scss */
+/* line 852, ../sass/main.scss */
 .ticket-details .key-facts {
   margin-bottom: 0 !important;
 }
-/* line 850, ../sass/main.scss */
+/* line 856, ../sass/main.scss */
 .ticket-details .map {
   margin-bottom: 2rem;
 }
-/* line 854, ../sass/main.scss */
+/* line 860, ../sass/main.scss */
 .ticket-details .ticket-info span {
   font-size: 1.5rem;
 }
-/* line 857, ../sass/main.scss */
+/* line 863, ../sass/main.scss */
 .ticket-details .ticket-info p {
   font-size: 0.8rem;
   color: #777;
   font-weight: 200;
   margin: 0.4rem;
 }
-/* line 864, ../sass/main.scss */
+/* line 870, ../sass/main.scss */
 .ticket-details .barcode, .ticket-details .qrcode {
   height: 100px;
   width: 100%;
@@ -1363,13 +1365,13 @@ html, body {
   background-position: center;
   margin-bottom: 0.2rem;
 }
-/* line 874, ../sass/main.scss */
+/* line 880, ../sass/main.scss */
 .ticket-details .qrcode {
   margin-bottom: 0;
   height: 145px;
   background-image: url("../img/qr.png");
 }
-/* line 881, ../sass/main.scss */
+/* line 887, ../sass/main.scss */
 .ticket-details .share-this {
   margin-bottom: 3rem;
   color: #ec298f;
@@ -1380,31 +1382,31 @@ html, body {
 								Filter
 
 ******************************************************************************/
-/* line 894, ../sass/main.scss */
+/* line 900, ../sass/main.scss */
 .filtered {
   z-index: 1000;
   position: fixed;
-  top: 100px;
-  left: 299px;
-  width: 270px;
+  top: 0;
+  right: 0;
+  width: 305px;
   background-color: #19093b;
-  height: 558px;
+  height: 667px;
   color: #a8bab8;
   padding: 1.5rem;
 }
-/* line 904, ../sass/main.scss */
+/* line 910, ../sass/main.scss */
 .filtered section {
   font-size: 0.7rem;
   font-weight: 300;
 }
-/* line 907, ../sass/main.scss */
+/* line 913, ../sass/main.scss */
 .filtered section h3 {
   font-weight: 300;
   font-size: 1.1rem;
   margin-bottom: 1rem;
   color: #ebe8ee;
 }
-/* line 913, ../sass/main.scss */
+/* line 919, ../sass/main.scss */
 .filtered section div {
   width: 100%;
   padding: 8px 0;
@@ -1414,19 +1416,19 @@ html, body {
   margin-left: -4px;
   cursor: pointer;
 }
-/* line 922, ../sass/main.scss */
+/* line 928, ../sass/main.scss */
 .filtered section div.selected {
   background-color: rgba(241, 144, 32, 0.8);
   color: white;
 }
-/* line 929, ../sass/main.scss */
+/* line 935, ../sass/main.scss */
 .filtered .price div {
   display: inline-block;
   width: 33%;
   text-align: center;
   padding: 8px 2px;
 }
-/* line 936, ../sass/main.scss */
+/* line 942, ../sass/main.scss */
 .filtered .filter-button {
   width: 100%;
   margin-left: -4px;
